@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Image
+  - Terrain
+  - SelectedUnit_txt
+  - Heros
+  - Canvas
+  - Building
+  - GameMaster
+  - BasicUnit
+  - EnemyCube
+  - Collectable
+  - Panel_GUI
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Unit
+  - Terrain
+  - Collectable
+  - CollectableObject
+  - Skill
+  - SkillGUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

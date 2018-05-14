@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1279867183817332}
+  m_IsPrefabParent: 1
+--- !u!1 &1146088615320116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4914500054831894}
+  - component: {fileID: 119793887331900808}
+  m_Layer: 8
+  m_Name: ProjectorPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1279867183817332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4570572933331988}
+  - component: {fileID: 33459323347602034}
+  - component: {fileID: 23758129592383496}
+  - component: {fileID: 95116725675946230}
+  - component: {fileID: 54641231656618874}
+  - component: {fileID: 208593851990502418}
+  - component: {fileID: 114932139507992742}
+  - component: {fileID: 65673801753197722}
+  m_Layer: 8
+  m_Name: HighPriestTemple
+  m_TagString: Building
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4570572933331988
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279867183817332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.764885, y: 0, z: 45.40785}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children:
+  - {fileID: 4914500054831894}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4914500054831894
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146088615320116}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.05, z: 0.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4570572933331988}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!23 &23758129592383496
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279867183817332}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33459323347602034
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279867183817332}
+  m_Mesh: {fileID: 4300004, guid: 194aefae9909b4c449f2d7a592550955, type: 3}
+--- !u!54 &54641231656618874
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279867183817332}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65673801753197722
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279867183817332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.666391, y: 6.449931, z: 4.666391}
+  m_Center: {x: -0.00000047683716, y: 3.2249656, z: 0.00000047683716}
+--- !u!95 &95116725675946230
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279867183817332}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: df8e2bb9d7be88a4998199c38cba7383, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114932139507992742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279867183817332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa00fe2bb6a7214697457cba928c8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameMaster: {fileID: 0}
+  faction: 0
+  _nameGo: HighPriestTemple
+  _unitType: 2
+  interactionable: 0
+  inAreaMaterial: {fileID: 2100000, guid: e489eab246f043a4a99ef82a5efd3954, type: 2}
+  defaultMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  _regenManaPerSecond: 0
+  _healthMax: 150
+  _manaMax: 0
+  _currentHealth: 150
+  _currentMana: 0
+  smallHealthBarPrefab: {fileID: 1801396126521414, guid: f0995b8d2a9c09f448f1fbc113d51fb8,
+    type: 2}
+  smallHealthBar: {fileID: 0}
+  smallManaBarPrefab: {fileID: 0}
+  smallManaBar: {fileID: 0}
+  cost: 50
+  xpValue: 0
+  triggerXpArea: {fileID: 0}
+  IsDumpingBuilding: 0
+  _autoBuild: 1
+  orders: 
+  creation: {fileID: 114435191172058108, guid: d88911507c7f84c4ca164560ea4b58a3, type: 2}
+  _creations:
+  - {fileID: 114435191172058108, guid: d88911507c7f84c4ca164560ea4b58a3, type: 2}
+  rallyPointFlag: {fileID: 0}
+  _creatingUnit: 0
+  _createTimer: 0
+  buildingGhost: {fileID: 1279867183817332, guid: 71822d36398e02b4da3a8ba477a4a5a7,
+    type: 2}
+  isDumpingBuilding: 0
+--- !u!119 &119793887331900808
+Projector:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146088615320116}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.01
+  m_FarClipPlane: 200
+  m_FieldOfView: 22.27
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 12.7
+  m_Material: {fileID: 2100000, guid: 160ad483f7c94c942bd8d2b15d014507, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 2048
+--- !u!208 &208593851990502418
+NavMeshObstacle:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279867183817332}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1, y: 1, z: 1.2540001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 1.2540001}
+  m_TimeToStationary: 0.5

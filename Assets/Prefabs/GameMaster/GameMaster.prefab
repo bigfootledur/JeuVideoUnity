@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1538574634153192}
+  m_IsPrefabParent: 1
+--- !u!1 &1538574634153192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4086723460467578}
+  - component: {fileID: 114586562396495512}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: GameMaster
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4086723460467578
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538574634153192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114586562396495512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538574634153192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f199245cc262b849801097013cc1b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+  blueWinCondition: {fileID: 0}
+  redWinCondition: {fileID: 0}
+  displayRedWool: {fileID: 0}
+  displayBlueWool: {fileID: 0}
+  herosPrefab: {fileID: 1113839357316234, guid: ba56c77c3930f704caa846fdb772ad5c,
+    type: 2}
+  basicUnitPrefab: {fileID: 1642919624339006, guid: 8eab1bff802050b4790149607315b2e6,
+    type: 2}
+  barackPrefab: {fileID: 1279867183817332, guid: 5790a18f91b4b5c4abf96e3b6ef9c98b,
+    type: 2}
+  townHallPrefab: {fileID: 1256139457250554, guid: b08ce91835a7ab84a83a1ea241a18267,
+    type: 2}
+  constructorPrefab: {fileID: 1655087438110774, guid: 76bbe7cf6f9d44f4191e9aee7e57a759,
+    type: 2}
+  gameSettingsPrefab: {fileID: 0}
+  buttonPrefab: {fileID: 1696598905250928, guid: 323952cac1d7f1b48ad927b87547ec3d,
+    type: 2}
+  projectorPrefab: {fileID: 1862461615077202, guid: 46db48aa26cb1a146aed833b39c46aec,
+    type: 2}
+  mainCamera: {fileID: 0}
+  unitPreSelectionMaterial: {fileID: 2100000, guid: 1f2ca68d687438c46bc5ca19574bbba1,
+    type: 2}
+  unitAfterSelectionMaterial: {fileID: 2100000, guid: 160ad483f7c94c942bd8d2b15d014507,
+    type: 2}
+  collectableObjectPreSelectionMaterial: {fileID: 2100000, guid: b8ce6ae000540ca4f8a42cddb7d3d8b4,
+    type: 2}
+  collectableObjectAfterSelectionMaterial: {fileID: 2100000, guid: 3f848fe443361c14ebd592b8e4c61cdd,
+    type: 2}
+  enemyPreSelectionMaterial: {fileID: 2100000, guid: 1011b9fc7e4a45747afdc382bf469ae3,
+    type: 2}
+  enemyAfterSelectionMaterial: {fileID: 2100000, guid: b009534d2708ffd41b670726b913e157,
+    type: 2}
+  terrain: {fileID: 0}
+  selectunit_text: {fileID: 0}
+  cursorAttackTexture: {fileID: 2800000, guid: f006f4a4e9a44a04aad276b67512ebe2, type: 3}
+  cursorDestinationTexture: {fileID: 2800000, guid: 287e25b3427e9614ab8e26faccc7a5d9,
+    type: 3}
+  cursorRallyPointTexture: {fileID: 2800000, guid: bf40b801f60dad84f8abf330cafff7ed,
+    type: 3}
+  cursorCollectTexture: {fileID: 2800000, guid: c298a79c2f297ce458223ba6a38f9744,
+    type: 3}
+  RallyPointBlueUnits: {x: 0, y: 0, z: 0}
+  RallyPointRedUnits: {x: 0, y: 0, z: 0}
+  playingAsHero: 1
+  InitUnitNumber: 0
+  buildingsAvailables: 
+  meshBuildingGhost: {fileID: 0}
+  herosStuff: {fileID: 0}
+  constructorStuff: {fileID: 0}
+  selectedInformationsPanel: {fileID: 0}
+  unitFocusPanel: {fileID: 0}
+  unitPreview: {fileID: 0}
+  healthBar: {fileID: 0}
+  hitPoints: {fileID: 0}
+  shopInformationsPanel: {fileID: 0}
+  nameSelectedDisplay: {fileID: 0}
+  attackSelectedDisplay: {fileID: 0}
+  attackSpeedSelectedDisplay: {fileID: 0}
+  moveSpeedSelectedDisplay: {fileID: 0}
+  defenseSelectedDisplay: {fileID: 0}
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
